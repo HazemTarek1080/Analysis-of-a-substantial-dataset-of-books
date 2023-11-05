@@ -5,12 +5,12 @@ echo "id  title  total_books_count"
 # then it joins the values using "|" as delimiter
 cat series.json | jq -s -r '.[] | {id: .id, title: .title, total_books_count: [(.works[] | .books_count | tonumber)] | add} | [.id, .title, .total_books_count] | join(";")' |               
 
-# sort in descending order by the 3rd element (total_books_count)  using "|" as field separator
+# sort in descending order by the 3rd element (total_books_count)  using ";" as field separator
 sort -t ";" -k3 -nr | 
 
  # extract the first 5 
 head -n 5 |
 
-# formatting output into columns, always using "|" as delimiter"
+# formatting output into columns, always using ";" as delimiter"
 column -t -s ";" 
 
