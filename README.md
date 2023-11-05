@@ -12,7 +12,7 @@ The analysis was done to answer the following questions:
   - Bonus question: Analysis using Dask library.
   - Command Line Question (CLQ): Analysis using command line only.
   - AWS question: A comparison between the local machine and the AWS EC2 instance doing the same analysis.
-  - Algorithmic Question: A Sorting problem based on certain instructions. 
+  - Algorithmic Question: Implementation and Analysis of the time complexity of a certain algorithm. 
 
 For a detailed understanding of the assignment requirements and problems, refer to this [link](https://github.com/Sapienza-University-Rome/ADM/blob/master/2023/Homework_2/README.md).
 
