@@ -162,10 +162,7 @@ def pages_statistic(data):
     import pandas as pd
     data[data.columns[0]] = pd.to_numeric(data[data.columns[0]], errors='coerce')
 
-    # Filtra le righe con valori numerici minori di 0
     righe_negative = data[data[data.columns[0]] < 0]
-
-    # Calcola la somma del numero di righe negative
     neg_count = len(righe_negative)
 
     if type(data)== pd.DataFrame:
