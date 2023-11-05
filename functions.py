@@ -258,3 +258,12 @@ def get_top_rated_authors(df):
 
     return top_rated_ids
 
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+def year_date(date_str):
+    import pandas as pd
+    try:
+        date = pd.to_datetime(date_str, errors='coerce')
+        return date.strftime('%Y') if not pd.isna(date) else None
+    except:
+        return None
