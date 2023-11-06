@@ -16,10 +16,11 @@ The analysis was done to answer the following questions:
 
 For a detailed understanding of the assignment requirements and problems, refer to this [link](https://github.com/Sapienza-University-Rome/ADM/blob/master/2023/Homework_2/README.md).
 
-![overflowing-bookcases](https://github.com/Sapienza-University-Rome/ADM/blob/master/2023/Homework_2/img/books_pict.jpg)
 
 ## Dataset
 The dataset utilized in this context comprises metadata about books and their respective authors, available in JSON files accessible via this [link](https://www.kaggle.com/datasets/opalskies/large-books-metadata-dataset-50-mill-entries). To expedite the analysis, we worked with a randomly-sampled, lighter version of the data, which can be found here [lighter_authors.json](https://adm2023.s3.amazonaws.com/lighter_authors.json) and [lighter_books.json](https://adm2023.s3.amazonaws.com/lighter_books.json), aiming to reduce the time required for analysis.
+
+![overflowing-bookcases](https://github.com/Sapienza-University-Rome/ADM/blob/master/2023/Homework_2/img/books_pict.jpg)
 
 ## Repo content
 - ADM-HW2.ipynb: A comprehensive Jupyter notebook that presents a detailed analysis of the dataset. It includes a systematic breakdown of the analysis process, the resulting insights, accompanying explanations, and graphical representations to give a better understanding of the findings.
@@ -34,10 +35,10 @@ The dataset utilized in this context comprises metadata about books and their re
 
 ## Usage
 - Download the JSON files using this [link](https://www.kaggle.com/datasets/opalskies/large-books-metadata-dataset-50-mill-entries).
-- clone the repo using the command **git clone https://github.com/Marioiacobelli/ADM-HW2** in a bash script terminal.
+- Clone the repo using the command **git clone https://github.com/Marioiacobelli/ADM-HW2** in a bash script terminal.
 - Make sure that the JSON files and the repo content are in the same directory to avoid file accessing errors.
 - Open the Jupyter Notebook using your desired IDE and start following the instructions there in order to replicate the results.
-- for the AWS Question, make sure to be enrolled in an AWS academy course in order to be able to access the AWS services and create the EC2 instance required. 
+- For the AWS Question, make sure to be enrolled in an AWS academy course in order to be able to access the AWS services and create the EC2 instance required. 
 
 ## Collaborators
 - Hazem Aboulfotouh (aboulfotouh.2105193@studenti.uniroma1.it)
