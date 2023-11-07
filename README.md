@@ -6,7 +6,7 @@ This repository contains the source code, notebooks, and additional materials re
 ## Description
 In this assignment, we are analyzing a substantial dataset of books with the aim of extracting valuable insights by addressing specific research questions. This process is designed to provide useful information about the dataset.
 
-The analysis was done to answer the following questions:
+The analysis was done to answer the following:
 
   - 8 Research questions: Analysis using Pandas library.
   - Bonus question: Analysis using Dask library.
